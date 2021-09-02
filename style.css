@@ -1,0 +1,37 @@
+.tabuleiro{
+    text-align: center;
+}
+.casa{
+    width: 100px;
+    height: 100px;
+    background-color: #002303;
+    border: 1px solid gray;
+    display: inline-block;
+    position:relative;
+}
+.x{}
+
+.x::after{
+    content: "";
+    background-image:url("./picture/xx.png");
+    background-size: cover;
+    position:absolute;
+    height: 100%;
+    width: 100%;
+    left: 0%;
+
+}
+.o{}
+
+.o::after{
+    content: "";
+    background-image:url("./picture/o.png");
+    background-size: cover;
+    position:absolute;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
