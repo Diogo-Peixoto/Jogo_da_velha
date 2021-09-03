@@ -15,7 +15,6 @@ function posClick(evento){//
     let posicao = casa.id;
 
     if(movimento(posicao)){;// Envie para a função movimento a posição da casa escolhida
-        reiniciar();
     }
 
     simboloCasa(posicao);
@@ -27,8 +26,20 @@ function simboloCasa(posicao){ //Essa função preenche a casa com o simbolo do 
     let casa = document.getElementById(posicao.toString());
     let simbolo = tabuleiro[posicao];
     casa.innerHTML = `<div class='${simbolo}'></div>`
-        
-    
-    
 }
 
+
+function reiniciar(){
+    let casa = document.querySelectorAll(".casa")
+
+    tabuleiro = ['', '','','', '','','', '',''];
+    vezDoJogador = 0;
+    fimDeJogo = false;
+    casa.forEach((casa)=>{
+        casa.innerHTML = '';
+    })
+}
+
+function contador(){
+//quando o 
+}

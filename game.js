@@ -1,7 +1,7 @@
 let tabuleiro = ['', '','','', '','','', '',''];
 let vezDoJogador = 0;
-let jogadores = ['x','o'];
 let fimDeJogo = false;
+let jogadores = ['x','o'];
 let sequenciV = [
     [0,1,2],
     [3,4,5],
@@ -17,6 +17,7 @@ let sequenciV = [
 function movimento(numCasa){
     
     if(fimDeJogo){
+        
         return;
     }
 
