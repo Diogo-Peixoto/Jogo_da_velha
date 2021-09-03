@@ -1,20 +1,34 @@
 body{
     font-family: 'minha', Golden Brick Personal Use;
-    color: white;
-    background-image: url('./picture/small.jpg') ;
+    background-color: #212121;
+    background-color:black ;
     
+}
+#corpo{
+    background-color: blue;
+    height: 600px;
+
+    display:grid;
+    grid-template: auto / auto auto auto;
 }
 @font-face {
     font-family:minha ;
     src: url("./picture/Golden\ Brick\ Personal\ Use.ttf");
 }
 .tabuleiro{
+    background-image: url('./picture/3.jpg');
+    background-size: cover;
+    width: 800px;
+
     text-align: center;
+    grid-area:1 /2  /1 /3
+    
+
 }
 .casa{
     width: 100px;
     height: 100px;
-    background-color: #002303;
+    background-color:rgba(0, 51, 27, 0);
     border: 1px solid gray;
     display: inline-block;
     position:relative;
