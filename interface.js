@@ -15,7 +15,16 @@ function posClick(evento){//
     let posicao = casa.id;
 
     if(movimento(posicao)){;// Envie para a função movimento a posição da casa escolhida
+            
+        setTimeout(()=>{
+            if(!alert("Fim de jogo! - O vencedor foi " + vezDoJogador)){
+                score[vezDoJogador]++;
+                scoreText[vezDoJogador].innerHTML = `${score[vezDoJogador]}`;
+            }
+        })
+        
     }
+    
 
     simboloCasa(posicao);
 
@@ -38,8 +47,4 @@ function reiniciar(){
     casa.forEach((casa)=>{
         casa.innerHTML = '';
     })
-}
-
-function contador(){
-//quando o 
 }

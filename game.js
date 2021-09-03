@@ -2,6 +2,8 @@ let tabuleiro = ['', '','','', '','','', '',''];
 let vezDoJogador = 0;
 let fimDeJogo = false;
 let jogadores = ['x','o'];
+let score = [0,0]
+let scoreText = document.querySelectorAll(".jogador");
 let sequenciV = [
     [0,1,2],
     [3,4,5],

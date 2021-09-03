@@ -1,3 +1,13 @@
+body{
+    font-family: 'minha', Golden Brick Personal Use;
+    color: white;
+    background-image: url('./picture/small.jpg') ;
+    
+}
+@font-face {
+    font-family:minha ;
+    src: url("./picture/Golden\ Brick\ Personal\ Use.ttf");
+}
 .tabuleiro{
     text-align: center;
 }
