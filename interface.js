@@ -16,12 +16,13 @@ function posClick(evento){//
 
     if(movimento(posicao)){;// Envie para a função movimento a posição da casa escolhida
             
-        setTimeout(()=>{
-            if(!alert("Fim de jogo! - O vencedor foi " + vezDoJogador)){
-                score[vezDoJogador]++;
-                scoreText[vezDoJogador].innerHTML = `${score[vezDoJogador]}`;
+        score[vezDoJogador]++;
+        scoreText[vezDoJogador].innerHTML = `${score[vezDoJogador]}`;
+        setInterval(()=>{
+            if(fimDeJogo){
+                reiniciar()
             }
-        })
+        },300)
         
     }
     

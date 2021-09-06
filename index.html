@@ -7,30 +7,32 @@
     <link rel="stylesheet" type="text/css" href="./style.css">
 </head>
 <body>
-    <div id="corpo">
-        <div class="tabuleiro">
-            <div class="linha">
-                <div id="0" class="casa"></div>
-                <div id="1" class="casa"></div>
-                <div id="2" class="casa"></div>
-            </div>
-            <div class="linha">
-                <div id="3" class="casa"></div>
-                <div id="4" class="casa"></div>
-                <div id="5" class="casa"></div>
-            </div>
-            <div class="linha">
-                <div id="6" class="casa"></div>
-                <div id="7" class="casa"></div>
-                <div id="8" class="casa"></div>
-            </div>
+    <h1>Jogo Da Velha</h1>
+    <div class="tabuleiro">
+        
+        <div class="linha">
+            <div id="0" class="casa"></div>
+            <div id="1" class="casa"></div>
+            <div id="2" class="casa"></div>
         </div>
+        <div class="linha">
+            <div id="3" class="casa"></div>
+            <div id="4" class="casa"></div>
+            <div id="5" class="casa"></div>
+        </div>
+        <div class="linha">
+            <div id="6" class="casa"></div>
+            <div id="7" class="casa"></div>
+            <div id="8" class="casa"></div>
+        </div>
+        <ul>
+            <li id="lix" class="jogador">0</li>
+            <li id="lio" class="jogador">0</li>
+        </ul>
+        <div id="butao" onclick="reiniciar()">RESET GAME</div>
     </div>
     <div>
-        <h2 class="jogador"></h2>
-        <h2 class="jogador"></h2>
     </div>
-    <input type="button" value="Atualizar" onclick="reiniciar()"></input>   
     <script src="./game.js"></script>
     <script src="./interface.js"></script>
 </body>
