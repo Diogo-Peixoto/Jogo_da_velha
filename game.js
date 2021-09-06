@@ -4,6 +4,7 @@ let fimDeJogo = false;
 let jogadores = ['x','o'];
 let score = [0,0]
 let scoreText = document.querySelectorAll(".jogador");
+let click = 0;
 let sequenciV = [
     [0,1,2],
     [3,4,5],
@@ -43,12 +44,13 @@ function vitoria(){ //Essa função sera executada toda vez que ouver uma jogada
     for(let i = 0; i < sequenciV.length;i++){ // repita isso 8 X
         
         let seq = sequenciV[i]; // Seq e igual a uma [sequencia] de vitoria
-        
+
         let pos1 = seq[0]; //Pos e igual a um [numero] da sequencia de vitoria
         let pos2 = seq[1];
         let pos3 = seq[2];
 
         if(tabuleiro[pos1] == tabuleiro[pos2] && tabuleiro[pos1] == tabuleiro[pos3] && tabuleiro[pos1] != ''){
+            
             return true;
         }
 

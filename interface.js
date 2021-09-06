@@ -13,16 +13,20 @@ function posClick(evento){//
     
     let casa = evento.target; // informa a localização da casa clicada
     let posicao = casa.id;
+    click++;
 
     if(movimento(posicao)){;// Envie para a função movimento a posição da casa escolhida
-            
+        
         score[vezDoJogador]++;
         scoreText[vezDoJogador].innerHTML = `${score[vezDoJogador]}`;
         setInterval(()=>{
             if(fimDeJogo){
                 reiniciar()
             }
-        },300)
+            if(click == 9 && ! fimDeJogo){
+                reiniciar()
+            }
+        },400)
         
     }
     
@@ -41,7 +45,7 @@ function simboloCasa(posicao){ //Essa função preenche a casa com o simbolo do 
 
 function reiniciar(){
     let casa = document.querySelectorAll(".casa")
-
+    click = 0;
     tabuleiro = ['', '','','', '','','', '',''];
     vezDoJogador = 0;
     fimDeJogo = false;
