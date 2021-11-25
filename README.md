@@ -15,8 +15,7 @@ programação e parte dos nossos conhecimetos já obtido até o modulo JavaScrip
 </div><br>
 
 <div align="center">
-  <img src="https://user-images.githubusercontent.com/71359547/143441304-cdfc0e25-44f0-4981-a594-4c44a06400ce.PNG" height="425">
-  <img src="https://user-images.githubusercontent.com/71359547/143442206-6d180639-2e8a-4439-8c69-e3086a2be354.gif" height="425">
+  <img src="https://user-images.githubusercontent.com/71359547/143442206-6d180639-2e8a-4439-8c69-e3086a2be354.gif">
 </div>
 
 
