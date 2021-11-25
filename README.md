@@ -5,7 +5,7 @@ programação e parte dos nossos conhecimetos já obtido até o modulo JavaScrip
 
 <p>Nesse projeto usamos o arquivo (game.js) como responsável por cuidar das regras do jogo , já o arquivo (interface.js) ficou responsável por controlar a parte gráfica e definir como os dados serão disponibilizados para o usuário.</p>
 
-## Tecnologias Usadas
+## 🚀 Tecnologias Usadas
 
 
 <div>
