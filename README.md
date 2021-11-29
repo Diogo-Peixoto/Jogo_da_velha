@@ -24,4 +24,4 @@ programação e parte dos nossos conhecimetos já obtido até o modulo JavaScrip
 ### Link do Jogo : https://diogo-peixoto.github.io/Jogo_da_velha/
 
 <a href="mailto:diogosoarespeixoto41@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"></a>
-<a href="https://www.linkedin.com/in/diogo-peixoto-21063421b/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a>
+<a href="https://www.linkedin.com/in/diogo-soares-peixoto-21063421b/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a>
