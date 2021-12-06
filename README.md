@@ -1,7 +1,7 @@
 # Jogo da velha 👵
 
 <p>Jogo desenvolvido com puro JavaScript , Html , Css , foi mais um dos  desafios do curso ProgramadorBR (programadorbr.com). Um projeto dedicado para colocarmos em prática a lógica de 
-programação e parte dos nossos conhecimetos já obtido até o modulo JavaScript Avançado.
+programação e parte dos nossos conhecimentos já obtido até o modulo JavaScript Avançado.
 
 <p>Nesse projeto usamos o arquivo (game.js) como responsável por cuidar das regras do jogo , já o arquivo (interface.js) ficou responsável por controlar a parte gráfica e definir como os dados serão disponibilizados para o usuário.</p>
 
